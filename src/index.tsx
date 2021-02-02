@@ -1,12 +1,9 @@
 import { Button } from 'antd'
 import * as React from 'react'
-import * as ReactDOM from 'react-dom'
+import { render } from 'react-dom'
+import 'antd/dist/antd.css'
 
-// console.log('R', ReactDOM)
-
-console.log(document.querySelector('#root'));
-
-ReactDOM.render(
+render(
   <div>
     <Button type="primary" > Primary Button </Button>
   </div>,
