@@ -1,6 +1,7 @@
 const path = require('path')
 module.exports = {
   // devtool: 'eval',
+  devtool: "source-map",
   // devtool: 'cheap-module-eval-source-map',
   devServer: {
     historyApiFallback: true,

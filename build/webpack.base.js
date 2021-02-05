@@ -24,7 +24,9 @@ module.exports = {
       }
     ]
   },
-  // resolve: ['.ts', 'tsx'],
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js']
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '../public/index.html'),
